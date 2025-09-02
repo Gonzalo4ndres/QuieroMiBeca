@@ -1,0 +1,11 @@
+/* styles.css */
+body{                                            /* Cuerpo de la pagina */
+    font-family: Arial, sans-serif;              /* Fuente */
+    background-color: #fff;                    /* Color de fondo */
+    display: flex;                              /* Flexbox para centrar */ 
+    justify-content: center;
+    align-items: center;    
+    height: 100vh;
+    margin: 0%;
+
+}

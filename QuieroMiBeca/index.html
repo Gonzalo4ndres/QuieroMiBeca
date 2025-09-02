@@ -1,19 +1,39 @@
-<!DOCTYPE html>    
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiero Mi Beca - Login </title>
-    <link rel="stylesheet" href="styles.css">
-    <body>
-        <div class ="Login-container">
-         <div class="logo">
-            <img src="logo.png" alt="Logo de Quiero Mi Beca">   
-            <h2>Quiero mi beca</h2>
-        </div>
+<!DOCTYPE html>                                                                                     <!-- versio de HTML5 -->
+<html lang="es">                                                                                    <!-- idioma español -->
+<head>                                                                                              <!-- metadatos -->
+  <meta charset="UTF-8">                                                                            <!-- codificación de caracteres -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">                            <!-- diseño responsivo -->
+  <title>Quiero mi beca - Iniciar Sesión</title>                                                    <!-- título de la página -->
+  <link rel="stylesheet" href="styles.css">                                                         <!-- enlace a la hoja de estilos -->
+</head>                                                                       
+<body>                                                                                              <!-- contenido visible de la página -->
+  <div class="login-container">                                                                     <!-- contenedor principal -->
+    <div class="logo">                                                                              <!-- sección del logo -->
+      <img src="/img/logo.png" alt="Logo Quiero mi beca">                                           <!-- imagen del logo -->
+      <h2>Quiero mi beca</h2>                                                                       <!-- nombre del sitio -->
+    </div>
+    
+    <h1>Iniciar Sesión</h1>                                                                         <!-- título principal -->
+    
+    <form class="login-form">                                                                       <!-- formulario de inicio de sesión -->
+      <input type="email" placeholder="Correo electrónico" required>                                <!-- campo de correo electrónico -->
+      <input type="password" placeholder="Contraseña" required>                                     <!-- campo de contraseña -->
+      <button type="submit">Iniciar Sesión</button>                                                 <!-- botón de envío del formulario -->
+    </form>
 
-        <h1>Iniciar Sesión</h1>
-        <from class="Login-form">
-            <input type="email" placeholder="Correo Electrónico" required>
-    </body>
+    <button class="guest-btn">Entrar sin cuenta</button>                                            <!-- botón para entrar sin cuenta -->
+    
+    <p class="or">O continúa con</p>                                                                <!-- texto separador -->
+    
+    <div class="social-login">                                                                      <!-- sección de inicio de sesión social -->
+      <a href="#"><img src="telegram.png" alt="Telegram"></a>                                       <!-- enlace a Telegram -->
+      <a href="#"><img src="facebook.png" alt="Facebook"></a>                                       <!-- enlace a Facebook -->
+      <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>                                       <!-- enlace a LinkedIn -->
+    </div>
+
+    <p class="register">                                                                            <!-- sección de registro -->
+      ¿No tienes cuenta? <a href="#">Regístrate</a>                                                 <!-- enlace de registro -->
+    </p>
+  </div>
+</body>
 </html>
